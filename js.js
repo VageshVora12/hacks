@@ -91,3 +91,25 @@
 // let endAt = performance.now();
 
 // console.log(`${endAt - startAt} took miliseconds to test`)
+
+
+
+
+
+
+
+
+// 10.)
+
+
+// schema = ["hi","ihaveMind",null, null, "goodbye"]
+// schema = schema.filter(function(n) {
+//  return n
+//  });
+// console.log(schema);
+
+
+
+var string = "login login"; 
+console.log(string.replace("in", "out")); // "logout login" 
+console.log(string.replace(/in/g, "out")); //"logout logout"
